@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -83,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #e6e19d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -111,13 +113,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #1951e6;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #1951e6 !important;
 			text-decoration: none;
 		}
 
@@ -135,8 +137,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+		color: #352e2e;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -154,6 +156,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		
 	}
 
 	h3 {
@@ -1841,7 +1844,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #1951e6;
 		}
 
 	select {
@@ -1946,7 +1949,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #1951e6;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2250,6 +2253,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
 	}
 
 		ul.actions li {
@@ -2445,8 +2449,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px #4f522c;
+		color: #444141 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2464,8 +2468,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #1951e6;
+			color: #1951e6 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2477,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #1951e6;
+			color: #1951e6 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2521,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #1951e6;
+			border-color: #1951e6;
 			color: #ffffff !important;
 		}
 
@@ -2593,7 +2597,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg1.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2632,36 +2636,36 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(250, 227, 181, 0.836);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 0 0 -3em 0;
+			width: 12.25em;
 		}
 
 /* Footer */
 
-	#footer .icons {
+	#footer .icons-work {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+		#footer .icons-work a {
+			color: #ffffff;
 		}
 
-	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+	#footer .copyright-work {
+		color: #ffffff;
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
 	}
 
-		#footer .copyright li {
+		#footer .copyright-work li {
 			border-left: solid 1px rgba(255, 255, 255, 0.25);
 			display: inline-block;
 			line-height: 1em;
@@ -2669,7 +2673,7 @@ input, select, textarea {
 			padding-left: 0.75em;
 		}
 
-			#footer .copyright li:first-child {
+			#footer .copyright-work li:first-child {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
@@ -2678,6 +2682,40 @@ input, select, textarea {
 			#footer .copyright li a {
 				color: inherit;
 			}
+
+			#footer .icons {
+				margin: 1em 0 0 0;
+			}
+		
+				#footer .icons a {
+					color: #ffffff;
+				}
+		
+			#footer .copyright {
+				color: #ffffff;
+				font-size: 0.8em;
+				list-style: none;
+				margin: 1em 0 0 0;
+				padding: 0;
+			}
+		
+				#footer .copyright li {
+					border-left: solid 1px rgba(255, 255, 255, 0.25);
+					display: inline-block;
+					line-height: 1em;
+					margin-left: 0.75em;
+					padding-left: 0.75em;
+				}
+		
+					#footer .copyright li:first-child {
+						border-left: 0;
+						margin-left: 0;
+						padding-left: 0;
+					}
+		
+					#footer .copyright li a {
+						color: inherit;
+					}
 
 /* Main */
 
@@ -2689,7 +2727,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #000000;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -2708,7 +2746,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #000000;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -2735,7 +2773,7 @@ input, select, textarea {
 
 .line {
     height: 2px; /* Adjust the thickness of the line */
-    background-color: #ddd; /* Adjust the color of the line */
+    background-color: #030000; /* Adjust the color of the line */
     margin: 20px 0; /* Adjust the spacing above and below the line */
 	width: 100%;
 }
