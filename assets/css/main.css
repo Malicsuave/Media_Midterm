@@ -2065,7 +2065,7 @@ input, select, textarea {
 		}
 		.image.thumb img {
 			width: 150px; /* Set your desired width */
-			height: auto; /* Keep the aspect ratio */
+			height: 300px; /* Keep the aspect ratio */
 		}
 
 		.image.thumb {
@@ -2179,7 +2179,7 @@ input, select, textarea {
 
     .video.thumb video {
         width: 500px; /* Set your desired width */
-        height: 290px; /* Keep the aspect ratio */
+        height: 300px; /* Keep the aspect ratio */
     }
 
     .video.thumb {
@@ -3440,4 +3440,10 @@ input, select, textarea {
 		width: 100%;
 		height: inherit;
 		background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent layer */
+	}
+
+	.divider {
+		border: 0;
+		border-top: 1px solid #ddd; /* Light grey line */
+		margin: 20px 0; /* Space above and below the line */
 	}
