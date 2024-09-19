@@ -124,7 +124,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #1951e6 ;
 		font-weight: 400;
 	}
 
@@ -149,7 +149,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
@@ -2139,19 +2139,18 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
-		.image.avatar {
-			border-radius: 100%;
-		}
-
-			.image.avatar:before {
-				display: none;
-			}
-
-			.image.avatar img {
+			.image.avatar {
 				border-radius: 100%;
-				width: 100%;
 			}
+	
+				.image.avatar:before {
+					display: none;
+				}
+	
+				.image.avatar img {
+					border-radius: 100%;
+					width: 100%;
+				}
 /* Video Styling - Same as Image for Consistency */
 .video {
     border-radius: 0.35em;
@@ -2761,9 +2760,11 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 -3em 0;
-			width: 12.25em;
-		}
+			margin: 1em 2em 0em 0;
+			width: 9em;
+			aspect-ratio: 1/1; /* add this to maintain a 1:1 aspect ratio */
+			border-radius: 50%; /* add this to make the image a circle */
+		  }
 
 /* Footer */
 
